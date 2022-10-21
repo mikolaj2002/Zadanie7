@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main
 {
-    public static void main(String[] args)
+    public static void main(final String[] args)
     {
         ArrayList<Shape> shapes = new ArrayList<>();
 
@@ -27,7 +27,10 @@ public class Main
         shapes.add(c);
 
         for (Shape shape : shapes)
-            System.out.println(shape.nameYourself() + ", area: " +
-                    shape.area() + ", perimeter: " + shape.perimeter());
+        {
+            System.out.println(shape.nameYourself() + ", area: "
+                    + shape.area() + ", perimeter: " + shape.perimeter());
+        }
     }
+
 }
