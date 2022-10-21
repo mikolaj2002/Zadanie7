@@ -19,7 +19,7 @@ public class Main
         r.b = 3;
 
         Circle c = new Circle();
-        c.r = 10;
+        c.r = 5;
 
         shapes.add(h);
         shapes.add(s);
